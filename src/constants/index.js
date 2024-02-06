@@ -35,6 +35,9 @@ import {
   nextjs,
   mongodb,
   mariadb,
+  naty,
+  fineto,
+  uog
 } from '../assets';
 
 export const navLinks = [
@@ -161,29 +164,36 @@ const technologies = [
 const experiences = [
   {
     title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    company_name: 'University of Gonder',
+    icon: uog,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Sep 2021 - Feb 2022',
+  },
+  {
+    title: 'Desktop App Developer',
+    company_name: 'Self hire',
+    icon: naty,
+    iconBg: '#333333',
+    date: 'Sep 2022 - Feb 2023',
   },
   {
     title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    company_name: 'SCHA',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Mar 2020 - May 2022',
   },
   {
     title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    company_name: 'Fineto',
+    icon: fineto,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Apr 2022 - Present',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'Full-Stack Developer',
+    company_name: 'Fineto',
+    icon: fineto,
     iconBg: '#333333',
     date: 'Sep 2022 - Present',
   },
