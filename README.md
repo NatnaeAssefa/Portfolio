@@ -7,11 +7,11 @@ https://github.com/Natnaeldeff/Portfolio-Template/assets/92020713/eed76a82-e59d-
 
 I created this portfolio to use as my own but ended up doing something else entirely. However, instead of keeping it buried, I decided to put it up here on GitHub as an open-source resource to help individuals to learn, adapt, and create their own portfolios. Feel free to customize and modify the theme and components to suit your personal style and branding preferences.
 
-## License and Attribution
+<!-- ## License and Attribution
 
 The code in this repository is released under the [MIT](https://github.com/Natnaeldeff/Portfolio-Template/blob/90213d4887074d1d29434f706afad3d12fa33f5f/MIT.md) License, which grants you the freedom to use, modify, and distribute the template as your own. However, if you choose to use the site's design largely unmodified, kindly credit me as the original designer of the site.
 
-All projects and experiences included in this portfolio are the result of my own efforts and creativity. Please refrain from presenting them as your own.
+All projects and experiences included in this portfolio are the result of my own efforts and creativity. Please refrain from presenting them as your own. -->
 
 ## Built With
 
@@ -22,7 +22,7 @@ All projects and experiences included in this portfolio are the result of my own
 
 ## Live Demo
 
-- Click [here](https://Natnael-portfolio.netlify.app/) to view the live demo.
+- Click [here](https://portfolio-rho-seven-34.vercel.app/) to view the live demo.
 
 ## Getting Started
 
@@ -35,10 +35,10 @@ Make sure you have node `16.0.0` or higher and npm `9.0.0` or higher installed.
 ### Setup
 
 - With git, clone the code to your machine, or download a ZIP of all the files directly.
-- [Download the ZIP file from this location](https://github.com/Natnaeldeff/Portfolio-Template/archive/refs/heads/main.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
+- [Download the ZIP file from this location](https://github.com/NatnaeAssefa/Portfolio/archive/refs/heads/main.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
 
 ```
-git clone https://github.com/Natnaeldeff/Portfolio-Template.git
+git clone https://github.com/NatnaeAssefa/Portfolio.git
 ```
 
 - Once the files are on your machine, open the **Portfolio-Template** folder in [Visual Studio Code](https://code.visualstudio.com/download).
@@ -83,11 +83,11 @@ npm run preview
 
 ## Authors
 
-👤 **Natnaeluille Ndunda**
+👤 **Natnael Assefa**
 
-- GitHub: [@Natnaeldeff](https://github.com/Natnaeldeff)
-- Twitter: [@Natnaeluillendunda](https://twitter.com/Natnaeluillendunda)
-- LinkedIn: [Natnaeluille Ndunda](https://www.linkedin.com/in/Natnaeluille-ndunda-b13a95107/)
+- GitHub: [@NatnaelAssefa](https://github.com/NatnaeAssefa)
+- X formerly (Twitter): [@NatnaelAssefa](https://x.com/Natnael_Assefa7?t=uq9rQxhSlyZlaVgA0UDs6w&s=35)
+- LinkedIn: [Natnael Assefa](https://linkedin.com/in/natnael-assefa-6a98081ab)
 
 ## Feedback and Contributions
 
