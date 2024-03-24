@@ -102,7 +102,8 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'C:/Users/Natnael%20Assefa/Downloads/My%20Novo%20Cv.pdf', //paste the link to your resume here
+                  // C:\Users\user\Documents\my-git\Portfolio\src\assets\resume\Natnael's Resume.pdf
+                  `/src/assets/resume/Natnael's Resume.pdf`, //paste the link to your resume here
                   '_blank'
                 )
               }
