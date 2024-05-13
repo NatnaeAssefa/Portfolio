@@ -202,16 +202,12 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'VB visualization platform',
+    description: 'VB visualization platform lightweight to view data on map reported from runners in that area using react-leaflet',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
       },
       {
         name: 'tailwind',
@@ -219,8 +215,8 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'private',
+    demo: 'https://vb-visualization-platform-lightweight.vercel.app/',
   },
   {
     id: 'project-2',
@@ -242,8 +238,8 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/NatnaeAssefa/LeaderBoard.git',
+    demo: 'https://leader-board-blue.vercel.app/',
   },
   {
     id: 'project-3',
@@ -286,7 +282,7 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
+    repo: 'https://github.com/NatnaeAssefa/Movie-Metro.git',
     demo: 'https://movie-metro.netlify.app/',
   },
   {
@@ -309,8 +305,8 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/NatnaeAssefa/Nyeusi-Fest-Site',
+    demo: 'https://nyeusi-fest-site.vercel.app/',
   },
 ];
 
