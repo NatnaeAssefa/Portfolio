@@ -37,7 +37,10 @@ import {
   mariadb,
   naty,
   fineto,
-  uog
+  uog,
+  frappe,
+  frappeframework,
+  erpnext
 } from '../assets';
 
 export const navLinks = [
@@ -124,8 +127,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'erpnext',
+    icon: erpnext,
   },
   {
     name: 'docker',
@@ -144,8 +147,8 @@ const technologies = [
     icon: springboot,
   },
   {
-    name: 'vuejs',
-    icon: vuejs,
+    name: 'frappe',
+    icon: frappe,
   },
   {
     name: 'jhipster',

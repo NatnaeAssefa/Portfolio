@@ -40,9 +40,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        As a Full Stack web app developer with a passion for leveraging
+        As a Full Stack developer with a passion for leveraging
         technology, I specialize in using React (JavaScript and TypeScript),
-        Vue.js SpringBoot (Java), Python. With a track record of successfully
+        SpringBoot (Java), Python Frappe(ERP). With a track record of successfully
         delivering projects on time and within budget, I currently serve as a
         senior software developer. Committed to staying abreast of the latest
         technologies and trends, my expertise extends to integrating AI

@@ -50,7 +50,7 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`} style={{ fontFamily: 'serif' }}>
               Full-Stack web developer. <br className="sm:block hidden" />
               Langs: JavaScript, TypeScript, Python, Java, Vue, HTML and CSS <br className="sm:block hidden" />
-              Frameworks: React.js, Vue.js, Node.js, Next.js, ReactNative, SpringBoot, MongoDB
+              Frameworks: React.js, Node.js, Frappe(ERP) Next.js, ReactNative, SpringBoot, MongoDB
             </p>
           </div>
           <div

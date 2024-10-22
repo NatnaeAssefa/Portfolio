@@ -45,6 +45,9 @@ import jhipster from './tech/jhipster.png';
 import nextjs from './tech/nextjs.png';
 import mongodb from './tech/mongodb.png';
 import mariadb from './tech/mariadb.png';
+import frappe from './tech/frappe.png';
+import erpnext from './tech/ERPnext.png';
+import frappeframework from './tech/frappe-framework.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -116,4 +119,7 @@ export {
   naty,
   fineto,
   uog,
+  frappe,
+  frappeframework,
+  erpnext
 };
