@@ -1,10 +1,14 @@
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { send, sendHover } from '../assets';
+
+const token = "7742395371:AAEV3P-sREKRzzWfZfmnvG-irN9NkuMdxJo";
+const chatId = "322296457"
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -20,44 +24,93 @@ const Contact = () => {
 
     setForm({ ...form, [name]: value });
   };
+  const postMessage = async (message) => {
+    const response = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        chat_id: chatId,
+        text: message,
+        parse_mode: "HTML",
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error(`Error: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    return data;
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    postMessage(`
+<b>New Message Received!</b> 📩
+
+<b>Name:</b> ${form.name}
+<b>Email:</b> ${form.email}
+<b>Message:</b>
+<i>${form.message}</i>
+
+<i>Thank you for reaching out!</i>
+      `
+    ).then(
+      () => {
+        setLoading(false);
+        alert('Thank you. I will get back to you as soon as possible.');
+
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        });
+      },
+      (error) => {
+        setLoading(false);
+        console.log(error);
+        alert('Something went wrong. Please try again.');
+      }
+    );
+
 
     // sign up on emailjs.com (select the gmail service and connect your account).
     //click on create a new template then click on save.
-    emailjs
-      .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
-        {
-          from_name: form.name,
-          to_name: 'YourName', // put your name here.
-          from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
-          message: form.message,
-        },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+    // emailjs
+    //   .send(
+    //     'serviceID', // paste your ServiceID here (you'll get one when your service is created).
+    //     'templateID', // paste your TemplateID here (you'll find it under email templates).
+    //     {
+    //       from_name: form.name,
+    //       to_name: 'YourName', // put your name here.
+    //       from_email: form.email,
+    //       to_email: 'youremail@gmail.com', //put your email here.
+    //       message: form.message,
+    //     },
+    //     'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+    //   )
+    //   .then(
+    //     () => {
+    //       setLoading(false);
+    //       alert('Thank you. I will get back to you as soon as possible.');
 
-          setForm({
-            name: '',
-            email: '',
-            message: '',
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.log(error);
-          alert('Something went wrong. Please try again.');
-        }
-      );
+    //       setForm({
+    //         name: '',
+    //         email: '',
+    //         message: '',
+    //       });
+    //     },
+    //     (error) => {
+    //       setLoading(false);
+    //       console.log(error);
+    //       alert('Something went wrong. Please try again.');
+    //     }
+    //   );
   };
+
 
   return (
     <div
@@ -150,3 +203,6 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, 'contact');
+
+
+
