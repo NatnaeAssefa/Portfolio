@@ -40,7 +40,8 @@ import {
   uog,
   frappe,
   frappeframework,
-  erpnext
+  erpnext,
+  startupagile
 } from '../assets';
 
 export const navLinks = [
@@ -191,14 +192,21 @@ const experiences = [
     company_name: 'Fineto',
     icon: fineto,
     iconBg: '#333333',
-    date: 'Apr 2022 - Present',
+    date: 'Apr 2022 - Dec 2024',
   },
   {
     title: 'Full-Stack Developer',
     company_name: 'Fineto',
     icon: fineto,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Sep 2022 - Dec 2024',
+  },
+  {
+    title: 'Full-Stack Developer',
+    company_name: 'StartupAgile Dev',
+    icon: startupagile,
+    iconBg: '#333333',
+    date: 'Dec 2024 - Present',
   },
 ];
 
