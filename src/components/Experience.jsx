@@ -9,7 +9,9 @@ import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
-import resumePdf from '../assets/resume/My Resume.pdf';
+
+const GITHUB_REPO_URL = 'https://github.com/NatnaeAssefa/Portfolio';
+const RESUME_FILE_PATH = '/blob/main/src/assets/resume/My%20Resume.pdf';
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
@@ -103,7 +105,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  resumePdf,
+                  `${GITHUB_REPO_URL}${RESUME_FILE_PATH}`,
                   '_blank'
                 )
               }
