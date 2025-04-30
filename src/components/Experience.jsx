@@ -11,7 +11,7 @@ import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
 
 const GITHUB_REPO_URL = 'https://github.com/NatnaeAssefa/Portfolio';
-const RESUME_FILE_PATH = '/blob/main/src/assets/resume/My%20Resume.pdf';
+const RESUME_FILE_PATH = '/raw/main/src/assets/resume/Natnael%27s%20Resume.pdf';
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
