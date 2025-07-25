@@ -59,6 +59,7 @@ import startupagile from './company/startupagile.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
+import boingo from './projects/boingo.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
@@ -123,5 +124,6 @@ export {
   frappe,
   frappeframework,
   erpnext,
-  startupagile
+  startupagile,
+  boingo
 };

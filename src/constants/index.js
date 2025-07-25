@@ -41,7 +41,8 @@ import {
   frappe,
   frappeframework,
   erpnext,
-  startupagile
+  startupagile,
+  boingo
 } from '../assets';
 
 export const navLinks = [
@@ -270,7 +271,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
+    image: boingo,
     repo: 'https://github.com/NatnaeAssefa/realestate_management_backend_node_app.git',
     demo: 'https://boingo.ai',
   },
