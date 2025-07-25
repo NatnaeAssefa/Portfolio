@@ -254,8 +254,8 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Boingo',
+    description: 'Boingo, your one-stop property shop!\n All the properties of the world at your fingertips',
     tags: [
       {
         name: 'nextjs',
@@ -271,8 +271,8 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/NatnaeAssefa/realestate_management_backend_node_app.git',
+    demo: 'https://boingo.ai',
   },
   {
     id: 'project-4',
